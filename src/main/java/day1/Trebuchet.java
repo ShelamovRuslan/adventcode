@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Trebuchet {
 
     public static void main(String[] args) {
-        String path = "src/main/java/day1/calibration_document.enc";
+        String path = "src/main/java/day1/snapshot_bricks";
         System.out.println(new Trebuchet(path, "difficult").getResult());
     }
 
